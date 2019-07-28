@@ -4,7 +4,7 @@ title: Basics in Econometrics!
 published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+In this section I introduce some basic econometric concept for I use some empirical data for illustration. Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
