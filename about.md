@@ -6,9 +6,10 @@ published: true
 ---
 
 ### Education
-**PhD Econometrics**
-**Msc Economics**
-**MSc Statistics**
+
+* PhD Econometrics
+* Msc Economics
+* MSc Statistics
 
 ### More Information
 
