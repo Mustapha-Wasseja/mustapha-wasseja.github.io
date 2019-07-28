@@ -5,7 +5,10 @@ permalink: /about/
 published: true
 ---
 
-Some information about you!
+### Education
+**PhD Econometrics**
+**Msc Economics**
+**MSc Statistics**
 
 ### More Information
 
@@ -13,4 +16,4 @@ An **Econometrician** with interest in Machine Learning methods, Spatial Econome
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[muswaseja@gmail.com](mailto:muswaseja@gmail.com)
