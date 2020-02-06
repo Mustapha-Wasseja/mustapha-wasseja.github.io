@@ -7,13 +7,14 @@ published: true
 
 ### Education
 
-* PhD Econometrics
+* PhD Economics (Spatial Econometrics)
 * Msc Economics
 * MSc Statistics
+* BSc Economics & Statistics
 
 ### More Information
 
-An **Econometrician** with interest in Machine Learning methods, Spatial Econometrics, Macroeconometrics and Structural Network Analysis.
+An Econometrician with interest in Machine Learning methods, Spatial Econometrics, Macroeconometrics (DSGE) and Structural Network Analysis.
 
 ### Contact me
 
