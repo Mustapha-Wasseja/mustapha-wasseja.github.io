@@ -466,6 +466,10 @@ h3 {
   padding: 70px 0 58px;
 }
 
+.compact-hero {
+  padding: 58px 0 48px;
+}
+
 .page-hero h1 {
   font-size: clamp(2rem, 5vw, 3.4rem);
 }
@@ -582,6 +586,125 @@ h3 {
   padding: 10px 12px;
 }
 
+.last-updated {
+  color: var(--warm);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.cv-layout {
+  align-items: start;
+  display: grid;
+  gap: 54px;
+  grid-template-columns: 260px minmax(0, 1fr);
+}
+
+.cv-sidebar {
+  border-left: 4px solid var(--accent);
+  padding-left: 22px;
+  position: sticky;
+  top: 110px;
+}
+
+.cv-sidebar h2 {
+  font-size: 1.35rem;
+}
+
+.cv-toc {
+  display: grid;
+  gap: 10px;
+}
+
+.cv-toc a {
+  color: var(--muted);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cv-toc a:hover {
+  color: var(--accent-dark);
+}
+
+.cv-main {
+  display: grid;
+  gap: 54px;
+}
+
+.cv-section {
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+
+.cv-section > h2 {
+  margin-bottom: 22px;
+}
+
+.cv-entry {
+  display: grid;
+  gap: 10px;
+  padding: 0 0 24px;
+}
+
+.cv-entry + .cv-entry {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+
+.cv-entry-head {
+  align-items: baseline;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.cv-entry-head h3 {
+  font-size: 1.18rem;
+  margin-bottom: 0;
+}
+
+.cv-entry-head span {
+  color: var(--warm);
+  flex: 0 0 auto;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.cv-entry p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.cv-entry ul,
+.cv-list {
+  color: var(--muted);
+  margin: 0;
+  padding-left: 20px;
+}
+
+.cv-entry li,
+.cv-list li {
+  margin: 8px 0;
+}
+
+.cv-skill-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cv-skill-grid div {
+  border: 1px solid var(--line);
+  padding: 20px;
+}
+
+.cv-skill-grid p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
 .contact-page-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -608,6 +731,7 @@ h3 {
   .split-list,
   .contact-grid,
   .content-grid,
+  .cv-layout,
   .section-heading.wide {
     grid-template-columns: 1fr;
   }
@@ -630,6 +754,14 @@ h3 {
 
   .sidebar {
     position: static;
+  }
+
+  .cv-sidebar {
+    position: static;
+  }
+
+  .cv-skill-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -684,6 +816,11 @@ h3 {
 
   .item {
     grid-template-columns: 1fr;
+  }
+
+  .cv-entry-head {
+    display: grid;
+    gap: 6px;
   }
 
   .footer-wrap {
