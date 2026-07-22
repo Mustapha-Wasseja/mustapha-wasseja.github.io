@@ -515,6 +515,23 @@ h3 {
   gap: 18px;
 }
 
+.research-section-title {
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0 10px;
+}
+
+.research-section-title h2 {
+  margin-bottom: 0;
+}
+
+.published-paper {
+  border-top: 5px solid var(--warm);
+}
+
+.featured-paper {
+  border-top: 5px solid var(--accent);
+}
+
 .paper h2,
 .project-card h2,
 .cv-block h2,
