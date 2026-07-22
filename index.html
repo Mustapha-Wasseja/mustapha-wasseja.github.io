@@ -10,7 +10,7 @@
     <meta property="og:description" content="Economist, applied econometrician, research fellow, and statistician.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mustapha-wasseja.github.io/">
-    <meta property="og:image" content="https://mustapha-wasseja.github.io/images/mustapha-profile.png">
+    <meta property="og:image" content="https://mustapha-wasseja.github.io/images/mustapha-heald.jpg">
     <link rel="canonical" href="https://mustapha-wasseja.github.io/">
     <link rel="stylesheet" href="assets/css/site.css">
   </head>
@@ -37,31 +37,46 @@
     <main id="main">
       <section class="hero">
         <div class="container hero-grid">
-          <figure class="portrait-wrap">
-            <img class="portrait" src="images/mustapha-profile.png" alt="Portrait of Mustapha Wasseja">
-          </figure>
           <div class="hero-copy">
             <p class="eyebrow">Research Fellow | Statistician | Economist</p>
-            <h1>Applied econometrics for policy, macroeconomics, climate, and spatial data.</h1>
+            <h1>Econometric methods for policy, macroeconomics, spatial data, and climate analysis.</h1>
             <p class="lead">
-              I am an economist and applied econometrician working across spatial econometrics,
-              macroeconometrics, Bayesian statistics, health econometrics, medical statistics,
-              and policy-oriented empirical research.
+              I am an economist and applied econometrician working across spatial
+              econometrics, macroeconometrics, Bayesian statistics, health
+              econometrics, medical statistics, and policy-oriented empirical
+              research.
             </p>
             <div class="actions" aria-label="Profile links">
               <a class="button primary" href="cv.html">View CV</a>
               <a class="button" href="research.html">Research</a>
               <a class="button" href="https://scholar.google.com/citations?hl=en&amp;user=j3VjpGEAAAAJ">Google Scholar</a>
             </div>
+            <dl class="hero-meta" aria-label="Profile summary">
+              <div>
+                <dt>Focus</dt>
+                <dd>Spatial econometrics, macroeconometrics, Bayesian methods</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>England, United Kingdom</dd>
+              </div>
+              <div>
+                <dt>Software</dt>
+                <dd>R, Stata, Python, GAMS, reproducible workflows</dd>
+              </div>
+            </dl>
           </div>
+          <figure class="portrait-wrap">
+            <img class="portrait" src="images/mustapha-heald.jpg" alt="Portrait of Mustapha Wasseja">
+          </figure>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container two-column">
+      <section class="section profile-section">
+        <div class="container profile-grid">
           <div>
             <p class="section-label">Profile</p>
-            <h2>About</h2>
+            <h2>Applied econometrics with a policy-facing orientation.</h2>
           </div>
           <div class="prose">
             <p>
@@ -77,14 +92,29 @@
               impacts on agricultural productivity.
             </p>
           </div>
+          <aside class="profile-card" aria-label="Research profile">
+            <h3>Research Profile</h3>
+            <ul class="clean-list compact">
+              <li>Spatial and network econometrics</li>
+              <li>Macroeconomics and monetary policy</li>
+              <li>Bayesian statistics and panel data</li>
+              <li>Climate economics and productivity</li>
+            </ul>
+          </aside>
         </div>
       </section>
 
       <section class="section subtle">
         <div class="container">
-          <div class="section-heading">
-            <p class="section-label">Research Areas</p>
-            <h2>Econometrics, policy, and computation</h2>
+          <div class="section-heading wide">
+            <div>
+              <p class="section-label">Research Areas</p>
+              <h2>Econometrics, policy, and computation</h2>
+            </div>
+            <p>
+              A coherent research agenda across spatial dependence, macroeconomic
+              decision-making, Bayesian modelling, and empirical policy analysis.
+            </p>
           </div>
           <div class="area-grid">
             <article class="area-card">
@@ -108,17 +138,18 @@
       </section>
 
       <section class="section">
-        <div class="container split-list">
-          <div>
+        <div class="container split-list selected-work">
+          <div class="section-intro">
             <p class="section-label">Selected Work</p>
             <h2>Current research and software</h2>
             <p class="muted">
-              A compact view of my active research and open-source tools. See the
-              dedicated pages for more detail.
+              A compact view of active research and open-source tools, with more
+              detail available on the Research and Software pages.
             </p>
           </div>
           <div class="stack">
             <article class="item">
+              <span class="item-kicker">Research</span>
               <div>
                 <h3>Network Structures and Heterogeneity in Policy Preferences at the FOMC</h3>
                 <p>Spatial econometric analysis of preference heterogeneity and interaction patterns in monetary policy deliberation.</p>
@@ -126,6 +157,7 @@
               <a href="research.html">Details</a>
             </article>
             <article class="item">
+              <span class="item-kicker">Software</span>
               <div>
                 <h3>spmixW</h3>
                 <p>R package for Bayesian spatial panel data models with convex combinations of spatial weight matrices.</p>
@@ -133,6 +165,7 @@
               <a href="software.html">Software</a>
             </article>
             <article class="item">
+              <span class="item-kicker">Software</span>
               <div>
                 <h3>GAMSr</h3>
                 <p>R-native modelling interface for GAMS, supporting reproducible workflows for applied economic modelling.</p>
