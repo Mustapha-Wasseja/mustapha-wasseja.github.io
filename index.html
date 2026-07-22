@@ -1,18 +1,169 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mustapha Wasseja, PhD | Economist and Applied Econometrician</title>
+    <meta name="description" content="Mustapha Wasseja, PhD is a research fellow and statistician working across spatial econometrics, macroeconometrics, Bayesian statistics, health econometrics, and policy analysis.">
+    <meta name="author" content="Mustapha Wasseja">
+    <meta property="og:title" content="Mustapha Wasseja, PhD">
+    <meta property="og:description" content="Economist, applied econometrician, research fellow, and statistician.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mustapha-wasseja.github.io/">
+    <meta property="og:image" content="https://mustapha-wasseja.github.io/images/mustapha.jpg">
+    <link rel="canonical" href="https://mustapha-wasseja.github.io/">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Mustapha Wasseja homepage">
+          <span class="brand-name">Mustapha Wasseja, PhD</span>
+          <span class="brand-role">Economist and Applied Econometrician</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="research.html">Research</a>
+          <a href="software.html">Software</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
       </div>
+    </header>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <figure class="portrait-wrap">
+            <img class="portrait" src="images/mustapha.jpg" alt="Portrait of Mustapha Wasseja">
+          </figure>
+          <div class="hero-copy">
+            <p class="eyebrow">Research Fellow | Statistician | Economist</p>
+            <h1>Applied econometrics for policy, macroeconomics, climate, and spatial data.</h1>
+            <p class="lead">
+              I am an economist and applied econometrician working across spatial econometrics,
+              macroeconometrics, Bayesian statistics, health econometrics, medical statistics,
+              and policy-oriented empirical research.
+            </p>
+            <div class="actions" aria-label="Profile links">
+              <a class="button primary" href="cv.html">View CV</a>
+              <a class="button" href="research.html">Research</a>
+              <a class="button" href="https://scholar.google.com/citations?hl=en&amp;user=j3VjpGEAAAAJ">Google Scholar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container two-column">
+          <div>
+            <p class="section-label">Profile</p>
+            <h2>About</h2>
+          </div>
+          <div class="prose">
+            <p>
+              My work studies how economic outcomes are shaped by spatial dependence,
+              networks, climate shocks, institutional change, and policy design. I use
+              spatial, network, Bayesian, panel-data, and machine-learning methods to
+              evaluate policy questions and build reproducible empirical tools.
+            </p>
+            <p>
+              My doctoral research in Economics examined applied spatial econometrics
+              in policy analysis, including monetary policy deliberation, post-Brexit
+              economic connectedness, multi-country macroeconomic models, and climate
+              impacts on agricultural productivity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section subtle">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Research Areas</p>
+            <h2>Econometrics, policy, and computation</h2>
+          </div>
+          <div class="area-grid">
+            <article class="area-card">
+              <h3>Spatial and Network Econometrics</h3>
+              <p>Spatial dependence, network structure, spatial panel models, and policy spillovers.</p>
+            </article>
+            <article class="area-card">
+              <h3>Macroeconometrics</h3>
+              <p>Central-bank decision-making, small open economy models, DSGE methods, and macroeconomic connectedness.</p>
+            </article>
+            <article class="area-card">
+              <h3>Bayesian Statistics</h3>
+              <p>Bayesian model comparison, MCMC estimation, Bayesian Global VARs, and applied statistical learning.</p>
+            </article>
+            <article class="area-card">
+              <h3>Climate and Policy Analysis</h3>
+              <p>Climate shocks, agricultural productivity, land use, renewable energy, and policy evaluation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-list">
+          <div>
+            <p class="section-label">Selected Work</p>
+            <h2>Current research and software</h2>
+            <p class="muted">
+              A compact view of my active research and open-source tools. See the
+              dedicated pages for more detail.
+            </p>
+          </div>
+          <div class="stack">
+            <article class="item">
+              <div>
+                <h3>Network Structures and Heterogeneity in Policy Preferences at the FOMC</h3>
+                <p>Spatial econometric analysis of preference heterogeneity and interaction patterns in monetary policy deliberation.</p>
+              </div>
+              <a href="research.html">Details</a>
+            </article>
+            <article class="item">
+              <div>
+                <h3>spmixW</h3>
+                <p>R package for Bayesian spatial panel data models with convex combinations of spatial weight matrices.</p>
+              </div>
+              <a href="software.html">Software</a>
+            </article>
+            <article class="item">
+              <div>
+                <h3>GAMSr</h3>
+                <p>R-native modelling interface for GAMS, supporting reproducible workflows for applied economic modelling.</p>
+              </div>
+              <a href="https://github.com/Mustapha-Wasseja/GAMSr">GitHub</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-band">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-label">Contact</p>
+            <h2>Research collaboration and enquiries</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:muswaseja@gmail.com">muswaseja@gmail.com</a>
+            <a href="https://github.com/Mustapha-Wasseja">GitHub</a>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=j3VjpGEAAAAJ">Google Scholar</a>
+            <a href="https://twitter.com/waseja">X / Twitter</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <span>&copy; 2026 Mustapha Wasseja.</span>
+        <span>Economics, econometrics, statistics, and policy analysis.</span>
+      </div>
+    </footer>
+  </body>
+</html>
